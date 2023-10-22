@@ -1,4 +1,4 @@
-FROM composer:1.7.2
+FROM composer:1.10.27
 
 COPY composer_laravel.lock /php-app/composer.lock
 COPY Gemfile_rails.lock /ruby-app/Gemfile.lock
